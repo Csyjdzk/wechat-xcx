@@ -11,6 +11,7 @@ App({
             url: 'https://tool.ggvsmm.com/onLogin.php',
             data: {
               code: res.code
+              //
             },
             header: {
               'content-type': 'application/json' // 默认值
