@@ -1,0 +1,2 @@
+<!--pages/usercenter/usercenter.wxml-->
+<view> {{ message }} </view>
