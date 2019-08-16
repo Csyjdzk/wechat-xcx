@@ -1,1 +1,20 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+            <view class="weui-panel__hd">home page</view>
+            <navigator  class="weui-panel__bd" wx:for="{{news}}" url="../details/details?details_id={{item[0]}}" open-type="redirect">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">{{item[5]}}</view>
+                    <view class="weui-media-box__desc">{{item[4]}}</view>
+                </view>
+            </navigator >
+            <view class="weui-panel__ft">
+                <view class="weui-cell weui-cell_access weui-cell_link">
+                    <view class="weui-cell__bd">查看更多</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
 
